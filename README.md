@@ -1,5 +1,8 @@
 # WildCardDEV-Site
-WildCard Business Site
+
+## WildCard Business Site
+
+## Features
 
 - A company Website employing RWD.
 - Utilized color/theme template.
@@ -10,3 +13,10 @@ WildCard Business Site
   - Testimonials Carousel
   - Tony Stark Holo Carousel.
   - Typewriter Effect. 
+
+## Technologies Used
+
+### Front End
+  - HTML
+  - CSS
+  - JavaScript
