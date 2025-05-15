@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="./resume.svg" />
+    <title>Matt Tobaben Resume</title>
+    <style>
+        :root {
+            font-family:system-ui,Avenir,Helvetica,Arial,sans-serif;
+            line-height:1.5;
+            font-weight:400;
+            color-scheme:light dark;
+            color:#ffffffde;
+            background-color:#242424;
+            font-synthesis:none;
+            text-rendering:optimizeLegibility;
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+            --bg-gradient-onyx: linear-gradient( to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97% )
+        }
+
+        body {
+            margin:0;
+            display:flex;
+            place-items:center;
+            min-width:320px;
+            min-height:100vh;
+            background:var(--bg-gradient-onyx)
+        }
+
+        .PDF {
+            overflow: auto;
+        }
+
+        .PDF::-webkit-scrollbar, .has-scrollbar::-webkit-scrollbar {
+            width: 50px; /* for vertical scrollbar */
+            height: 5px; /* for horizontal scrollbar */
+        }
+
+        .PDF::-webkit-scrollbar-track, .has-scrollbar::-webkit-scrollbar-track {
+        background: rebeccapurple;
+        border-radius: 5px;
+        }
+
+        .PDF::-webkit-scrollbar-thumb, .has-scrollbar::-webkit-scrollbar-thumb {
+            background: green;
+            border-radius: 5px;
+        }
+
+        .PDF::-webkit-scrollbar-button, .has-scrollbar::-webkit-scrollbar-button { 
+            width: 20px; 
+        }
+
+    </style>
+    </head>
+
+    <body class="has-scrollbar">
+        <div class="PDF">
+            <iframe scrolling='no' height="1000px" width="1000px" src="./assets//images/mtobabenResume.pdf"></iframe>
+        </div>
+    </body>
+    
+    </html>
